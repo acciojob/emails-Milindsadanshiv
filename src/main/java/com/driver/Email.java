@@ -31,12 +31,10 @@ public class Email {
             {
                 if (containsSmallchar(newPassword) && containsBigchar(newPassword) && containsLeastdigit(newPassword) && containsSpecialchar(newPassword)) {
                     password = newPassword;
-                  //  System.out.println("password changed successfully");
+                    //  System.out.println("password changed successfully");
                 }
-                // else System.out.println("missing something");
             }
-            // System.out.println("at least 8 char req.");
-            // System.out.println(password);
+
         }
     }
     public boolean containsSmallchar(String newPassword)
