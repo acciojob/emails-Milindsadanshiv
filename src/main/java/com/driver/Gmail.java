@@ -44,7 +44,6 @@ public class Gmail extends Email {
             {
                 Trash.add(Inbox.get(i));
                 Inbox.remove(i);
-                return;
             }
         }
     }
@@ -91,17 +90,17 @@ public class Gmail extends Email {
 
     public int getInboxSize(){
         // Return number of mails in inbox
-      return Inbox.size();
+          return Inbox.size();
     }
 
     public int getTrashSize(){
         // Return number of mails in Trash
-  return Trash.size();
+        return Trash.size();
     }
 
     public void emptyTrash(){
         // clear all mails in the trash
-    Trash.clear();
+          Trash.clear();
     }
 
     public int getInboxCapacity() {
